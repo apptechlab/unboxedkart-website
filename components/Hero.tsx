@@ -2,7 +2,6 @@ import React from 'react'
 import Image from "next/image"
 import Button from './Button'
 
-
 const Hero = () => {
   return (
      <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
@@ -17,7 +16,7 @@ const Hero = () => {
        />
        <h1 className="bold-52 lg:bold-88">Certified refurbished Apple products</h1>
        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-         We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+       Discover unbeatable deals on certified refurbished Apple products at UnboxedKart! Our carefully inspected and certified refurbished iPhones, iPads, MacBooks, and more offer exceptional quality at irresistible prices. Shop now for guaranteed performance and savings, only at UnboxedKart!
        </p>
 
        <div className="my-11 flex flex-wrap gap-5">
@@ -43,7 +42,7 @@ const Hero = () => {
          <Button 
            type="button" 
            title="Download App" 
-           variant="btn_green" 
+           variant="btn_blue_secondary" 
          />
          <Button 
            type="button" 
@@ -55,27 +54,7 @@ const Hero = () => {
      </div>
 
      <div className="relative flex flex-1 items-start">
-       <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
-
-          <div className="flex flex-col">
-           <div className="flexBetween">
-             <p className="regular-16 text-gray-20">Location</p>
-             <Image src="/close.svg" alt="close" width={24} height={24} />
-           </div>
-           <p className="bold-20 text-white">Aguas Calientes</p>
-         </div>
-
-         <div className="flexBetween">
-           <div className="flex flex-col">
-             <p className="regular-16 block text-gray-20">Distance</p>
-             <p className="bold-20 text-white">173.28 mi</p>
-           </div>
-           <div className="flex flex-col">
-             <p className="regular-16 block text-gray-20">Elevation</p>
-             <p className="bold-20 text-white">2.040 km</p>
-           </div>
-         </div>
-       </div>
+          {/* image or naimation */}
      </div>
    </section>
   )
