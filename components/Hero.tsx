@@ -8,7 +8,7 @@ const Hero = () => {
 
      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
        <Image 
-         src="/gadgets.svg"
+         src="gadgets.svg"
          alt="gadgets"
          width={60}
          height={60}
@@ -47,7 +47,7 @@ const Hero = () => {
          <Button 
            type="button" 
            title="Review by customers" 
-           icon="/play.svg"
+           icon="play.svg"
            variant="btn_white_text" 
          />
        </div>
