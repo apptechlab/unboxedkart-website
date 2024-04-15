@@ -24,6 +24,7 @@ module.exports = {
         },
         blue: {
           70: '#021639',
+          80: '#004aad',
         },
         yellow: {
           50: '#FEC601',
