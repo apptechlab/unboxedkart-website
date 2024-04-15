@@ -3,7 +3,7 @@ type ButtonProps = {
      type: 'button' | 'submit';
      title: string;
      icon?: string;
-     variant: 'btn_blue';
+     variant: 'btn_blue' | 'btn_green' | 'btn_white_text';
 }
 
 const Button = ({type, title, icon, variant}: ButtonProps) => {
