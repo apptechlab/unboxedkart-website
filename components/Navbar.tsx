@@ -20,8 +20,11 @@ const Navbar = () => {
                </Link>
           ))}
      </ul>
-     <div>
+     <div className='lg:flexCenter hidden'>
           <Button type="button" title="Shop" icon="/cart.svg" variant="btn_blue"/>
+     </div>
+     <div className='lg:hidden'>
+          <Button type="button" title="Menu" icon="/menu.svg" variant="btn_blue"/>
      </div>
     </nav>
   )
