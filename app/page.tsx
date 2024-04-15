@@ -1,8 +1,15 @@
+import Details from "@/components/Details";
+import Hero from "@/components/Hero";
+import Product from "@/components/Product";
+import Promotion from "@/components/Promotion";
 
 export default function Home() {
   return (
-    <h1 className="text-2xl">
-      Pages
-    </h1>
+    <>
+    <Hero/>
+    <Product/>
+    <Details/>
+    <Promotion/>
+    </>
   );
 }
