@@ -6,43 +6,35 @@ export const NAV_LINKS = [
      { href: '/', key: 'contact_us', label: 'Contact Us' },
    ];
    
-   // CAMP SECTION
-   export const PEOPLE_URL = [
-     '/person-1.png',
-     '/person-2.png',
-     '/person-3.png',
-     '/person-4.png',
-   ];
-   
    // FEATURES SECTION
    export const FEATURES = [
      {
-       title: 'Real maps can be offline',
-       icon: '/map.svg',
-       variant: 'green',
+       title: 'Affordable Pricing',
+       icon: 'map.svg',
+       variant: 'blue',
        description:
-         'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+         'At UnboxedKart, we offer budget-friendly prices, ensuring that our customers get the best value for their money without compromising on quality.',
      },
      {
-       title: 'Set an adventure schedule',
-       icon: '/calendar.svg',
-       variant: 'green',
+       title: 'Premium Quality',
+       icon: 'calendar.svg',
+       variant: 'blue',
        description:
-         "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+         "Our extensive range of products boasts exceptional quality, curated to meet the diverse needs and preferences of our customers. Each item undergoes thorough inspection to guarantee reliability and satisfaction.",
      },
      {
-       title: 'Technology using augment reality',
-       icon: '/tech.svg',
-       variant: 'green',
+       title: 'Ample Availability',
+       icon: 'tech.svg',
+       variant: 'blue',
        description:
-         'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+         'With a consistently replenished stock, UnboxedKart ensures that customers can find their desired items readily available, eliminating the hassle of waiting or searching elsewhere.',
      },
      {
-       title: 'Many new locations every month',
-       icon: '/location.svg',
-       variant: 'orange',
+       title: 'Authorized Excellence',
+       icon: 'location.svg',
+       variant: 'blue',
        description:
-         'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+         'As an authorized dealer and refurbishing service for Apple products, UnboxedKart maintains the highest standards of authenticity and excellence. Customers can trust in our partnership with Apple for genuine products and certified refurbishment services.',
      },
    ];
    
@@ -51,8 +43,8 @@ export const NAV_LINKS = [
      {
        title: 'Learn More',
        links: [
-         'About Hilink',
-         'Press Releases',
+         'About Unboxedkart',
+         'Blogs',
          'Environment',
          'Jobs',
          'Privacy Policy',
@@ -60,27 +52,26 @@ export const NAV_LINKS = [
        ],
      },
      {
-       title: 'Our Community',
-       links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+       title: 'Our Services',
+       links: ['Repair iPhone', 'Repair macbook', 'Repair airpods', 'Repair iPads'],
      },
    ];
    
    export const FOOTER_CONTACT_INFO = {
      title: 'Contact Us',
      links: [
-       { label: 'Admin Officer', value: '123-456-7890' },
-       { label: 'Email Officer', value: 'hilink@akinthil.com' },
+       { label: 'Phone', value: '000-111-1234' },
+       { label: 'Email', value: 'social@unboxedkart.com' },
      ],
    };
    
    export const SOCIALS = {
      title: 'Social',
      links: [
-       '/facebook.svg',
-       '/instagram.svg',
-       '/twitter.svg',
-       '/youtube.svg',
-       '/wordpress.svg',
+       'facebook.svg',
+       'instagram.svg',
+       'twitter.svg',
+       'youtube.svg',
      ],
    };
    

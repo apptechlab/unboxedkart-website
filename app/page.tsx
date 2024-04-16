@@ -1,6 +1,6 @@
-import Details from "@/components/Details";
+import Details from "@/components/ProductUsp";
 import Hero from "@/components/Hero";
-import Product from "@/components/Product";
+import Product from "@/components/Repair";
 import Promotion from "@/components/Promotion";
 
 export default function Home() {
