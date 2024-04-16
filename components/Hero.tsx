@@ -53,8 +53,8 @@ const Hero = () => {
        </div>
      </div>
 
-     <div className="relative flex flex-1 items-start">
-          {/* image or naimation */}
+     <div className="relative flex-2 items-start lg:flexCenter hidden">
+     <Image src='wallpaper.svg' alt='iphone mockup' width={380}height={380}/>
      </div>
    </section>
   )
