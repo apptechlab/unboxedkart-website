@@ -64,6 +64,79 @@ export const NAV_LINKS = [
        { label: 'Email', value: 'social@unboxedkart.com' },
      ],
    };
+
+   export const FOOTER_AREAS = [
+    {
+      links: [
+        'Adugodi',
+        'Anjanapura',
+        'BTM Layout',
+        'Banashankari',
+        'Bannerghatta',
+        'Basavanagudi',
+        'Bel Layout',
+        'Bellandur',
+    ],
+    },
+    {
+      links: [
+        'Bhadrappa Layout',
+        'Bommasandra',
+        'CV Raman Nagar',
+        'Domlur',
+        'Electronic City',
+        'HAL',
+        'HSR Layout',
+        'Haralur',
+    ],
+    },
+    {
+      links: [
+        'Hebbal',
+        'Horamavu',
+        'Indira Nagar',
+        'ISKCON Temple',
+        'JP Nagar',
+        'Jalahalli',
+        'Jayanagar',
+        'Jigani',
+    ],
+    },
+    {
+      links: [
+        'KR Puram',
+        'Kadugodi',
+        'Kaggadasapura',
+        'Kalyan Nagar',
+        'Koramangala',
+        'Kothanur',
+        'Mahadevapura',
+        'Marathahalli',
+    ],
+    },
+    {
+      links: [
+        'Nagavara',
+        'RT Nagar',
+        'Rajajinagar',
+        'Sahakara Nagar',
+        'Sarjapur',
+        'Shivaji Nagar',
+        'Silk Board',
+        'Ullal',
+    ],
+    },
+    {
+      links: [
+        'Uttarahalli',
+        'Varthur',
+        'Vijayanagar',
+        'Whitefield',
+        'Yelahanka New Town',
+        'Yesvantpur',
+    ],
+    },
+   ]
    
    export const SOCIALS = {
      title: 'Social',
