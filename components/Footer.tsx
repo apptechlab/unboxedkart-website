@@ -81,10 +81,10 @@ const Footer = () => {
           Our Services are available all across Bengaluru, Karnataka
         </h1>
         <div className="flex gap-20 flex-row ">
-                  {FOOTER_AREAS.map((groups) => 
-                    <ul>
-                      {groups.links.map((places) => 
-                      <p className='text-gray-500'>
+                  {FOOTER_AREAS.map((groups, index) => 
+                    <ul key={index}>
+                      {groups.links.map((places, index) => 
+                      <p key={index} className='text-gray-500'>
                         {places}
                       </p>
                       )}
