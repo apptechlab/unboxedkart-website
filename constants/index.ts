@@ -147,4 +147,35 @@ export const NAV_LINKS = [
        'youtube.svg',
      ],
    };
+
+   export const STEPS_TO_CERTIFY = [
+    {
+      title: 'Visual Inspection',
+      description: 'Our trained technicians start by conducting a thorough visual inspection of the device. We examine every inch, looking for any signs of wear, damage, or cosmetic imperfections.',
+    },
+    {
+      title: 'Functionality Testing',
+      description: 'Next, we put the device through a series of comprehensive functionality tests. This includes checking the performance of key components such as the processor, battery, camera, display, and connectivity features.',
+    },
+    {
+      title: 'Software Assessment',
+      description: 'We ensure that the device is running the latest stable software version and that all software features are fully functional. We also check for any signs of software tampering or unauthorized modifications.',
+    },
+    {
+      title: 'Battery Health Check',
+      description: 'Battery life is crucial for the optimal performance of any mobile device. We assess the battery health and capacity to ensure it meets our standards for longevity and reliability.',
+    },
+    {
+      title: 'Data Wipe and Factory Reset',
+      description: 'Prior to listing the device for sale, we perform a complete data wipe and factory reset to erase any personal information and restore the device to its original settings.',
+    },
+    {
+      title: 'Quality Assurance',
+      description: 'Our final step involves a meticulous quality assurance review. We double-check every aspect of the device to guarantee that it meets or exceeds industry standards for refurbished products.',
+    },
+    {
+      title: 'Warranty and Guarantee',
+      description: 'For added peace of mind, all certified refurbished products come with a warranty or guarantee. This ensures that our customers can shop with confidence, knowing that they are covered in the unlikely event of any issues.',
+    },
+   ];
    
