@@ -1,3 +1,4 @@
+import { REVIEWS } from "@/constants";
 import Image from "next/image";
 
 
@@ -23,7 +24,7 @@ const LandingScreen = () => {
                </div>
            </div>  
      </div>
-     <div className="w-[325px] lg:w-[1200px] flex flex-col bg-yellow-300 rounded-lg pb-8 pl-12 mb-12 items-center">
+     <div className="w-[325px] lg:w-[1200px] flex flex-col bg-yellow-300 rounded-lg pb-8 pl-12 mb-28 items-center">
           <div>
           <h2 className='text-[40px] lg:text-[120px] font-light leading-none lg:block mr-2 text-textPrimary mt-8'>
           <span className="font-bold">
@@ -39,6 +40,36 @@ const LandingScreen = () => {
           Everything is a gain.
           </h2>
           </div>
+     </div>
+     <div className="flex flex-col items-center w-full">
+          <h2 className="text-[36px] lg:text-[90px] font-light leading-none lg:block mr-2 text-textPrimary mt-8 text-white">
+               What our customer say..
+          </h2>
+     <div className="flex flex-row space-x-4">
+     {REVIEWS.map((reviews, index) => 
+     <div className="flex flex-col mb-12 mt-8">
+     <div className="overflow-hidden relative lg:w-[350px] text-white flex flex-col items-center w-[200px] text-center">
+     <div className="flex items-center gap-2 pb-6">
+          {Array(reviews.stars).fill(1).map((_, index) => (
+               <Image 
+                    src="star.svg"
+                    key={index}
+                    alt="star"
+                    width={24}
+                    height={24}
+               />
+          ))}
+    </div>
+    <h4 className="text-[24px] pb-6">
+          {reviews.review}
+    </h4>
+    <h4 className="text-[26px] pb-6">
+    - {reviews.name}
+    </h4>
+     </div>
+     </div>
+     )}
+     </div>
      </div>
     </div>
   )

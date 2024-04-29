@@ -209,4 +209,22 @@ export const NAV_LINKS = [
       'description': "From the screen, display, mic, speaker, battery, receiver, and charging port to even software issues, Cashify Repair promises its users 100% Genuine Parts. Additionally, the products Cashify uses to repair your phone are sourced from outside India. To ensure quality and reliability, we test all our parts in-house before we use them in repair. All Cashify Repair technicians are experts, so you don’t have to worry about faulty installations. But in case you do, don’t worry, Cashify offers a warranty for its replaced parts."
     },
    ];
+
+   export const REVIEWS = [
+    {
+      'stars': 4,
+      'review': "I haven't shopped anywhere else since I discovered Crowd Zero! I love how the clothes are perfect for mixing and matching, and can go from day to night.",
+      'name':'Alaia Domingo',
+    },
+    {
+      'stars': 5,
+      'review': "I love how there's a size chart for every collection. Every item I ordered fits like a glove! Thanks for making it easy to build my dream wardrobe.",
+      'name':'Margot Elsher',
+    },
+    {
+      'stars': 4,
+      'review': "More than the incredible collections, I really appreciate the safe payment options, quick shipping and delivery, and surprise discounts!",
+      'name':'Dominico Pascal',
+    },
+   ];
    
