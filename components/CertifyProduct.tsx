@@ -34,8 +34,8 @@ const CertifyProduct = () => {
                          {steps.title}
                          </h3>
                          <p className='pr-5 flex items-center justify-center'>
-                         {(expandedIndex !== index) && (<svg width="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 13V7M7 7V1M7 7H13M7 7H1" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
-                         {(expandedIndex === index) && (<svg width="12" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1H12" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
+                         {(expandedIndex !== index) && (<svg width="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 13V7M7 7V1M7 7H13M7 7H1" stroke="#ddd" stroke-width="2" strokeLinecap="round"></path></svg>)}
+                         {(expandedIndex === index) && (<svg width="12" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1H12" stroke="#ddd" stroke-width="2" strokeLinecap="round"></path></svg>)}
                          </p>
                     </div>
                </div>
