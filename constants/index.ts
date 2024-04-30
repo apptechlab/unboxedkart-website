@@ -227,4 +227,22 @@ export const NAV_LINKS = [
       'name':'Dominico Pascal',
     },
    ];
+
+   export const BUY_FROM_US = [
+    {
+      'image': '/unboxedkart.webp',
+      'title': "ONLY CERTIFIED PRODUCTS (WITH 50+ CHECKS)",
+      'description':'All Products are tested and certified by our ​professional team before listing for sale in ​our Mobile App/Website.',
+    },
+    {
+      'image': '/warranty.webp',
+      'title': "EVERY PRODUCT COMES WITH 3-6 ​MONTHS WARRANTY",
+      'description':'All our Products comes with a 3-6 months ​of Unboxedkart Warranty, so that ​customers can purchase without issues ​about quality.',
+    },
+    {
+      'image': 'store.svg',
+      'title':'PHYSICAL STORES TO ENHANCE CUSTOMER EXPERIENCE',
+      'description': "We have Stores across India to make it ​easier for our customer to buy from us.Check at bottom of this page to know more ​about stores.",
+    },
+   ];
    
