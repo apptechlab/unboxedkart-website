@@ -4,11 +4,9 @@ import React, { useState } from 'react';
 import Image from "next/image";
 
 const CertifyProduct = () => {
-     const [expanded, setExpanded] = useState(false);
      const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
      const toggleExpand = (index: number | null) => {
-          setExpanded(!expanded);
           setExpandedIndex(index === expandedIndex ? null : index);
      };
 
@@ -36,12 +34,12 @@ const CertifyProduct = () => {
                          {steps.title}
                          </h3>
                          <p className='pr-5 flex items-center justify-center'>
-                         {(!expanded || expandedIndex !== index) && (<svg width="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 13V7M7 7V1M7 7H13M7 7H1" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
-                         {(expanded && expandedIndex === index) && (<svg width="12" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1H12" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
+                         {(expandedIndex !== index) && (<svg width="12" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 13V7M7 7V1M7 7H13M7 7H1" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
+                         {(expandedIndex === index) && (<svg width="12" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1H12" stroke="#ddd" stroke-width="2" stroke-linecap="round"></path></svg>)}
                          </p>
                     </div>
                </div>
-               {(expanded && expandedIndex === index) && (
+               {(expandedIndex === index) && (
                     <div className='space-y-6 transition-all duration-500 opacity-100 max-h-96 overflow-visible visible my-4 text-white'>
                     <div className='flex items-start mx-3'>
                     {steps.description}
