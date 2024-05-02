@@ -226,16 +226,6 @@ export const NAV_LINKS = [
       'review': "More than the incredible collections, I really appreciate the safe payment options, quick shipping and delivery, and surprise discounts!",
       'name':'Dominico Pascal',
     },
-    {
-      'stars': 4,
-      'review': "I haven't shopped anywhere else since I discovered Crowd Zero! I love how the clothes are perfect for mixing and matching, and can go from day to night.",
-      'name':'Alaia Domingo',
-    },
-    {
-      'stars': 5,
-      'review': "I love how there's a size chart for every collection. Every item I ordered fits like a glove! Thanks for making it easy to build my dream wardrobe.",
-      'name':'Margot Elsher',
-    },
    ];
 
    export const BUY_FROM_US = [

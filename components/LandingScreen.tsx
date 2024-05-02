@@ -45,7 +45,7 @@ const LandingScreen = () => {
           <h2 className="animate-slide-right text-[36px] lg:text-[90px] font-light leading-none lg:block mr-2 text-textPrimary mt-8 text-white">
                What our customer say..
           </h2>
-     <div className="flex flex-row space-x-12 animate-slide-right">
+     <div className="flex flex-col lg:flex-row lg:space-x-12 ">
      {REVIEWS.map((reviews, index) => 
      <div className="flex flex-col mb-12 mt-8">
      <div className="overflow-hidden relative lg:w-[350px] text-white flex flex-col items-center w-[200px] text-center">
