@@ -5,7 +5,7 @@ import Image from "next/image";
 const LandingScreen = () => {
   return (
     <div className="bg-[#004aad] flex flex-col items-center">
-     <div className='overflow-hidden relative lg:h-[1200px] text-white flex justify-center  h-[400px]'>
+     <div className='overflow-hidden relative lg:h-[1200px] text-white flex justify-center'>
           <div className='lg:flex lg:justify-center pb-10 overflow-x-hidden'>
                <div className='flex flex-col items-center w-full lg:items-center lg:flex-row lg:justify-between lg:max-w-7xl px-4 lg:px-8'>
                <div className='animate-slide-right relative w-[325px] lg:w-[800px] lg:mr-8 mb-8 lg:mb-12 lg:mt-40'>
