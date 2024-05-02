@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Promotion = () => {
 
   return (
-    <section className="flexCenter w-full flex-col pb-[100px] bg-blue-800 pl-4 pr-4 lg:items-start items-center">
+    <section className="flexCenter w-full flex-col pb-[100px] bg-blue-800 pl-4 pr-4 items-center">
       <div className='pt-24'>
         <div className='flex lg:flex-row flex-col'>
         <div className="z-20 flex w-full flex-1 flex-col items-center lg:items-start lg:justify-center gap-12">
