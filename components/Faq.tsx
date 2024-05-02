@@ -1,16 +1,10 @@
 "use client";
 
 import { FAQS } from '@/constants';
-import React, { useState } from 'react';
 
 const Faq = () => {
-     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
-
-     const toggleExpand = (index: number | null) => {
-          setExpandedIndex(index === expandedIndex ? null : index);
-     };
   return (
-     <section className='bg-blue-800 pt-12 pb-12 justify-center text-white flex flex-row'>
+     <section className='bg-blue-800 pt-12 pb-12 items-center lg:items-start lg:justify-center text-white flex flex-col lg:flex-row'>
      <div className='w-[325px] lg:w-[580px] pl-24'>
          <h2 className='text-[32px] lg:text-[60px] font-light leading-none lg:block mr-2 text-textPrimary'>
          Frequently<br/>
