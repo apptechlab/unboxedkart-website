@@ -14,11 +14,11 @@ const PhysicalPresence = () => {
      We setup physical stores across states to make shopping experience easier & safer for our customers
      </h2>
      <div className="flexCenter max-container relative w-full pt-16">
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-rows-1 lg:grid-cols-3 lg:gap-4">
      {PHYSICAL_PRESENCE.map((physicalPresence, index) => 
-     <div className="flex flex-col mb-12 mt-8">
+     <div className="flex flex-col mb-8 lg:mb-12 lg:mt-8">
      <div className="overflow-hidden relative lg:w-[350px] text-white flex flex-col items-center w-[200px] text-center">
-     <div className="flex items-center gap-2 pb-6">
+     <div className="flex items-center gap-2 lg:pb-6">
      <Image 
                     src={physicalPresence.image}
                     key={index}
