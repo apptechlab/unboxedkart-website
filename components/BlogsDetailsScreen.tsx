@@ -9,7 +9,7 @@ const BlogDetailsScreen = () => {
      <div className="w-full mb-16">
       <div className="relative h-[200px] lg:h-[450px]">
           <Image
-            src="/blog_banner.png"
+            src="blog_banner.svg"
             layout='fill'
             objectFit='cover'
             alt="A website with a question on it"
@@ -50,7 +50,7 @@ const BlogDetailsScreen = () => {
         <article className="relative rounded-lg shadow-md overflow-hidden">
           <div className='flex flex-col'>
           <Image
-            src="/iphone.png"
+            src="iphone.svg"
             alt="iPhone Guides"
             width={370}
             height={200}
@@ -76,7 +76,7 @@ const BlogDetailsScreen = () => {
         <article className="relative rounded-lg shadow-md overflow-hidden">
           <div className='flex flex-col'>
           <Image
-            src="/iphone.png"
+            src="iphone.svg"
             alt="iPhone Guides"
             width={370}
             height={200}
