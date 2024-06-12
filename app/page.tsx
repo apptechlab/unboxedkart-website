@@ -11,14 +11,13 @@ import BlogDetailsScreen from "@/components/BlogsDetailsScreen";
 export default function Home() {
   return (
     <>
-    <BlogDetailsScreen/>
-    {/* <LandingScreen/>
+    <LandingScreen/>
     <Product/>
     <Details/>
     <CertifyProduct/>
     <PhysicalPresence/>
     <Faq/>
-    <Promotion/> */}
+    <Promotion/>
     </>
   );
 }
